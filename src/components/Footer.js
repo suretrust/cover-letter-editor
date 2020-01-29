@@ -6,7 +6,9 @@ const Footer = () => {
     <footer>
       <p>
         Made with &hearts; by{' '}
-        <a href="https://saheedoladele.com">Saheed Oladele</a>
+        <a href="https://saheedoladele.com" target="_blank">
+          Saheed Oladele
+        </a>
       </p>
     </footer>
   );

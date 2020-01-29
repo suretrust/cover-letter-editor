@@ -23,7 +23,13 @@ const Text = () => {
   return (
     <div className="Text">
       <form onChange={handleChange} onSubmit={handleSubmit}>
-        <TextareaAutosize placeholder="Paste the cover letter here..." autoFocus required name="text" value={text} />
+        <TextareaAutosize
+          placeholder="Paste the cover letter here..."
+          autoFocus
+          required
+          name="text"
+          value={text}
+        />
         <button type="submit">PROCESS COVER LETTER</button>
       </form>
     </div>
