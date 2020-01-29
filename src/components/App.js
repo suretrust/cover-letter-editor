@@ -1,17 +1,13 @@
 import React from 'react';
-
 import '../styles/css/App.css';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import Text from './Text';
+import Layout from './Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <Layout>
       <Text />
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 
