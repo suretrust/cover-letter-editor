@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
 import '../styles/css/Text.css';
 import replaceAll from '../utilities/replaceAll';
+import searchAndSave from '../utilities/searchAndSave';
 
 const Text = () => {
   const [text, setText] = useState('');
@@ -12,8 +13,11 @@ const Text = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const str = replaceAll(text, '[Aurity]', 'Saheed');
-    console.log(str);
+    const array = searchAndSave(text);
+    console.log(array);
+    array.forEach(element => {
+      setText(replaceAll(text, element, 'Saheed'));
+    });
   };
 
   return (
