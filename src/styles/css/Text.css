@@ -1,0 +1,28 @@
+.Text {
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.Text form {
+  margin-bottom: 4rem;
+}
+.Text form textarea {
+  width: 100%;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  padding: 0.5rem;
+  min-height: 40vh;
+}
+.Text form button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+/*# sourceMappingURL=Text.css.map */

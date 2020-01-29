@@ -1,0 +1,19 @@
+footer {
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    p {
+        text-align: center;
+        bottom: 0;
+        padding: .5rem;
+        font-size: .7rem;
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}

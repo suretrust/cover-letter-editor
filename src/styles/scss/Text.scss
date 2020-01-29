@@ -1,0 +1,29 @@
+.Text {
+    padding: 0 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+
+    form {
+        margin-bottom: 4rem;
+
+        textarea {
+            width: 100%;
+            border-radius: .2rem;
+            font-size: 16px;
+            padding: .5rem;
+            min-height: 40vh;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 1rem;
+            padding: .5rem 1rem;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            border: none;
+            border-radius: .2rem;
+        }
+    }
+}
