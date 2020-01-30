@@ -25,9 +25,6 @@ const Text = ({ addText, addTemplate, history }) => {
     addTemplate(templates);
     addText(letter);
     history.push('/edit');
-    // templates.forEach(element => {
-    //   addText(replaceAll(letter, element, 'Saheed'));
-    // });
   };
 
   return (

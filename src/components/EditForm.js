@@ -15,7 +15,7 @@ const mapDispatchToProps = dispatch => ({
   addText: text => dispatch(addText(text))
 });
 
-const EditForm = ({ templates, text, addText }) => {
+const EditForm = ({ templates, text, addText, history }) => {
   const [state] = useState({});
 
   templates.forEach(template => {
@@ -32,6 +32,7 @@ const EditForm = ({ templates, text, addText }) => {
       text = replaceAll(text, key, state[key]);
     });
     addText(text);
+    history.push('/final-copy');
   };
 
   return (
