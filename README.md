@@ -1,4 +1,16 @@
 <h1 align="center">Welcome to Cover Letter Template Editor 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/suretrustng" target="_blank">
+    <img alt="Twitter: suretrustng" src="https://img.shields.io/twitter/follow/suretrustng.svg?style=social" />
+  </a>
+  <a href="https://twitter.com/shjang12" target="_blank">
+    <img alt="Twitter: shjang12" src="https://img.shields.io/twitter/follow/shjang12.svg?style=social" />
+  </a>
+</p>
 
 Job searching is tough, we know that because we have been in your shoes. We know how stressful editing a cover letter template can be, especially when you have just 5 mins to apply. This project is a **Cover Letter Template Editor** app built to ease job searching by enabling candidates in writing custom cover letters for different companies or positions without going through the hassle of customizing it yourself. Ok, you will still customize yourself, we know, but this app eases the process. This ranges from editing the hiring manager's name, company name, to replacing the required skill set.
 
