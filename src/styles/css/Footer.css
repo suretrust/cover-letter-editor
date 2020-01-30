@@ -11,9 +11,19 @@ footer p {
   padding: 0.5rem;
   font-size: 0.7rem;
 }
+footer p span {
+  color: red;
+}
 footer p a {
   color: red;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  footer p {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=Footer.css.map */

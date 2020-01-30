@@ -6,6 +6,11 @@
     form {
         margin-bottom: 4rem;
 
+        .copy-success {
+            text-align: center;
+            padding: .3rem;
+        }
+
         textarea {
             background-color: rgb(100, 87, 87);
             color: white;
@@ -15,6 +20,11 @@
             font-size: 1rem;
             padding: .5rem;
             min-height: 40vh;
+
+            &::placeholder {
+                font-size: .9rem;
+                color: seashell;
+            }
         }
 
         button {
@@ -32,6 +42,32 @@
             &:hover {
                 background-color: white;
                 color: red;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Text {
+        padding: 0 1rem;
+
+        form {
+            .copy-success {
+                font-size: .8rem;
+            }
+
+            textarea {
+                font-size: .85rem;
+
+                &::placeholder {
+                    font-size: .7rem;
+                    color: seashell;
+                }
+            }
+
+            button {
+                padding: .5rem;
+                font-size: .8rem;
             }
         }
     }

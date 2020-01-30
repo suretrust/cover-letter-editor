@@ -12,6 +12,17 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    padding: 0.7rem;
+  }
+  nav ul li a {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=Navbar.css.map */

@@ -36,4 +36,26 @@
   color: red;
 }
 
+@media screen and (max-width: 600px) {
+  .EditForm {
+    padding: 0 1rem;
+  }
+  .EditForm form {
+    margin-bottom: 4rem;
+  }
+  .EditForm form label,
+.EditForm form input {
+    font-size: 0.8rem;
+  }
+  .EditForm form input {
+    padding: 0.4rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.3rem;
+  }
+  .EditForm form button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 /*# sourceMappingURL=EditForm.css.map */

@@ -9,23 +9,34 @@ const mapStateToProps = state => ({
   text: state.text
 });
 
-const EditedText = ({ text }) => {
-  const [copySuccess, setCopySuccess] = useState('Copy to clipboard');
+const EditedText = ({ text, history }) => {
+  const [copySuccess, setCopySuccess] = useState(
+    'Click the text below to copy to clipboard'
+  );
 
-  const copyToClipboard = (e) => {
-    const copyText = document.getElementById("process-result");
+  const copyToClipboard = () => {
+    const copyText = document.getElementById('process-result');
     copyText.select();
     const check = document.execCommand('copy');
     if (check) setCopySuccess('Copied!');
   };
 
+  const handleSubmit = e => {
+    e.preventDefault();
+    history.push('/');
+  };
+
   return (
     <div className="Text">
-      <form>
-        <div onClick={ () => copyToClipboard() }>
-          <div>{ copySuccess }</div>
-          <TextareaAutosize name="text" value={text.trim()} id="process-result" />
-          <button type="button">EDIT</button>
+      <form onSubmit={handleSubmit}>
+        <div onClick={copyToClipboard}>
+          <div className="copy-success">{copySuccess}</div>
+          <TextareaAutosize
+            name="text"
+            value={text.trim()}
+            id="process-result"
+          />
+          <button type="submit">EDIT</button>
         </div>
       </form>
     </div>

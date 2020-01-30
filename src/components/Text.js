@@ -7,12 +7,16 @@ import '../styles/css/Text.css';
 import searchAndSave from '../utilities/searchAndSave';
 import { addText, addTemplate } from '../actions';
 
+const mapStateToProps = state => ({
+  text: state.text
+});
+
 const mapDispatchToProps = dispatch => ({
   addText: text => dispatch(addText(text)),
   addTemplate: templates => dispatch(addTemplate(templates))
 });
 
-const Text = ({ addText, addTemplate, history }) => {
+const Text = ({ addText, addTemplate, history, text }) => {
   const [letter, setLetter] = useState('');
 
   const handleChange = e => {
@@ -35,7 +39,7 @@ const Text = ({ addText, addTemplate, history }) => {
           autoFocus
           required
           name="text"
-          value={letter}
+          value={text || letter}
         />
         <button type="submit">PROCESS COVER LETTER</button>
       </form>
@@ -48,4 +52,4 @@ Text.propTypes = {
   addTemplate: PropTypes.func.isRequired
 };
 
-export default connect(null, mapDispatchToProps)(withRouter(Text));
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Text));

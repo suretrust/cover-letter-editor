@@ -11,9 +11,22 @@ footer {
         padding: .5rem;
         font-size: .7rem;
 
+        span {
+            color: red;
+        }
+
         a {
             color: red;
             text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        p {
+            padding: .5rem;
+            font-size: .5rem;
         }
     }
 }

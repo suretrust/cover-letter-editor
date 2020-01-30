@@ -40,3 +40,29 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .EditForm {
+        padding: 0 1rem;
+
+        form {
+            margin-bottom: 4rem;
+
+            label,
+            input {
+                font-size: .8rem;
+            }
+
+            input {
+                padding: .4rem;
+                margin-bottom: .8rem;
+                margin-top: .3rem;
+            }
+
+            button {
+                padding: .5rem;
+                font-size: .8rem;
+            }
+        }
+    }
+}

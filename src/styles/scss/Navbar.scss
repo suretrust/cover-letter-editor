@@ -12,8 +12,25 @@ nav {
             a {
                 text-decoration: none;
                 color: white;
+                text-transform: uppercase;
+                font-weight: bold;
             }
         }
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        ul {
+            padding: .7rem;
+
+            li {
+                a {
+                    font-size: .8rem;
+                }
+            }
+        }
+
+    }
 }
