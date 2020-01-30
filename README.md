@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Cover Letter Template Editor 👋</h1>
 
-Job searching is tough, we know that because we have been in your shoes. We know how stressful editing a cover letter template can be, especially when you have just 5 mins to apply. This project is a **Cover Letter Template Editor** app built to ease job searching by enabling candidates in writing custom cover letters for different companies or positions without going through the hassle of customizing it yourself. Ok, you will still customize yourself, but this app eases the process. This ranges from editing the hiring manager's name, company name, to replacing the required skill set.
+Job searching is tough, we know that because we have been in your shoes. We know how stressful editing a cover letter template can be, especially when you have just 5 mins to apply. This project is a **Cover Letter Template Editor** app built to ease job searching by enabling candidates in writing custom cover letters for different companies or positions without going through the hassle of customizing it yourself. Ok, you will still customize yourself, we know, but this app eases the process. This ranges from editing the hiring manager's name, company name, to replacing the required skill set.
 
 ## Built With
 
@@ -42,7 +42,7 @@ $ npm start
 
 > Go to `http://localhost:3000` using your browser.
 
-## Author
+## Authors
 
 👤 **Saheed Oladele**
 
