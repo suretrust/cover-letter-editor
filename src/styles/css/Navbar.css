@@ -1,0 +1,28 @@
+nav {
+  background-color: #2a2a2a;
+  position: sticky;
+}
+nav ul {
+  text-align: center;
+  padding: 1rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    padding: 0.7rem;
+  }
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,84 @@
+.Text {
+    padding: 0 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+
+    .error {
+        text-align: center;
+        padding: .3rem;
+        font-size: .8rem;
+    }
+
+    form {
+        margin-bottom: 4rem;
+
+        .copy-success {
+            text-align: center;
+            padding: .3rem;
+        }
+
+        textarea {
+            background-color: rgb(100, 87, 87);
+            color: white;
+            width: 100%;
+            border: none;
+            border-radius: .2rem;
+            font-size: 1rem;
+            padding: .5rem;
+            min-height: 40vh;
+
+            &::placeholder {
+                font-size: .9rem;
+                color: seashell;
+            }
+        }
+
+        button {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 1rem;
+            padding: 1rem;
+            font-weight: bold;
+            font-size: large;
+            border: none;
+            border-radius: .2rem;
+            background-color: red;
+            color: white;
+
+            &:hover {
+                background-color: white;
+                color: red;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Text {
+        padding: 0 1rem;
+
+        .error {
+            font-size: .6rem;
+        }
+
+        form {
+            .copy-success {
+                font-size: .8rem;
+            }
+
+            textarea {
+                font-size: .85rem;
+
+                &::placeholder {
+                    font-size: .7rem;
+                    color: seashell;
+                }
+            }
+
+            button {
+                padding: .5rem;
+                font-size: .8rem;
+            }
+        }
+    }
+}
