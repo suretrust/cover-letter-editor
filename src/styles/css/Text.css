@@ -3,6 +3,11 @@
   max-width: 900px;
   margin: 2rem auto;
 }
+.Text .error {
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+}
 .Text form {
   margin-bottom: 4rem;
 }
@@ -44,6 +49,9 @@
 @media screen and (max-width: 600px) {
   .Text {
     padding: 0 1rem;
+  }
+  .Text .error {
+    font-size: 0.6rem;
   }
   .Text form .copy-success {
     font-size: 0.8rem;

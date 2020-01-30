@@ -3,6 +3,12 @@
     max-width: 900px;
     margin: 2rem auto;
 
+    .error {
+        text-align: center;
+        padding: .3rem;
+        font-size: .8rem;
+    }
+
     form {
         margin-bottom: 4rem;
 
@@ -50,6 +56,10 @@
 @media screen and (max-width: 600px) {
     .Text {
         padding: 0 1rem;
+
+        .error {
+            font-size: .6rem;
+        }
 
         form {
             .copy-success {

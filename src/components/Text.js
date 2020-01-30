@@ -18,6 +18,7 @@ const mapDispatchToProps = dispatch => ({
 
 const Text = ({ addText, addTemplate, history, text }) => {
   const [letter, setLetter] = useState('');
+  const [error, setError] = useState('');
 
   const handleChange = e => {
     setLetter(e.target.value);
@@ -25,14 +26,22 @@ const Text = ({ addText, addTemplate, history, text }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const templates = searchAndSave(letter);
-    addTemplate(templates);
-    addText(letter);
-    history.push('/edit');
+    if (letter.includes('[')) {
+      setError('');
+      const templates = searchAndSave(letter);
+      addTemplate(templates);
+      addText(letter);
+      history.push('/edit');
+    } else {
+      setError(
+        'Your template does not contain any "[ ]", please add to proceed'
+      );
+    }
   };
 
   return (
     <div className="Text">
+      <div className="error">{error}</div>
       <form onChange={handleChange} onSubmit={handleSubmit}>
         <TextareaAutosize
           placeholder="Paste the cover letter here..."
