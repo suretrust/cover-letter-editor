@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
@@ -10,12 +10,23 @@ const mapStateToProps = state => ({
 });
 
 const EditedText = ({ text }) => {
+  const [copySuccess, setCopySuccess] = useState('Copy to clipboard');
+
+  const copyToClipboard = (e) => {
+    const copyText = document.getElementById("process-result");
+    copyText.select();
+    const check = document.execCommand('copy');
+    if (check) setCopySuccess('Copied!');
+  };
+
   return (
     <div className="Text">
       <form>
-        <TextareaAutosize name="text" value={text.trim()} disabled />
-        <button type="button">COPY TO CLIPBOARD</button>
-        <button type="button">EDIT</button>
+        <div onClick={ () => copyToClipboard() }>
+          <div>{ copySuccess }</div>
+          <TextareaAutosize name="text" value={text.trim()} id="process-result" />
+          <button type="button">EDIT</button>
+        </div>
       </form>
     </div>
   );
