@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Welcome to Cover Letter Editor 👋</h1>
 
-## Available Scripts
+This project is a Cover Letter Editor app to help candidates writing accommodated letters for each company such as hiring manager name, or main required skill set to the letter content.
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- React 16.12
+- Redux 4.0.5
+- Jest test
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> Clone the repository to your local machine
 
-### `yarn test`
+```
+$ git clone https://github.com/suretrust/cover-letter-editor.git
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Change directory into the directory
 
-### `yarn build`
+```
+$ cd cover-letter-editor
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Install dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+$ npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Check code passes tests
 
-### `yarn eject`
+```
+$ npm test
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> Open server with compiling
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Go to `http://localhost:3000` using your browser.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author
 
-## Learn More
+👤 **Saheed Oladele**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github: [@suretrust](https://github.com/suretrust)
+- Linkedin: [@saheed-oladele](https://www.linkedin.com/in/saheed-oladele/)
+- Twitter: [@suretrustng](https://twitter.com/suretrustng)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+👤 **Suhyeon Jang**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Github: [@shjang7](https://github.com/shjang7)
+- Linkedin: [@shjang](https://www.linkedin.com/in/shjang/)
+- Twitter: [@shjang12](https://twitter.com/shjang12)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/suretrust/cover-letter-editor/issues).
 
-### Making a Progressive Web App
+1. Fork it (https://github.com/suretrust/cover-letter-editor/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[feature-name])
+5. Create a new Pull Request
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## 📝 License
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](https://github.com/suretrust/cover-letter-editor/blob/master/LICENSE) licensed.
