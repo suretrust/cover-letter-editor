@@ -1,23 +1,33 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import TextareaAutosize from 'react-textarea-autosize';
 import '../styles/css/Text.css';
-import replaceAll from '../utilities/replaceAll';
 import searchAndSave from '../utilities/searchAndSave';
+import { addText, addTemplate } from '../actions';
 
-const Text = () => {
-  const [text, setText] = useState('');
+const mapDispatchToProps = dispatch => ({
+  addText: text => dispatch(addText(text)),
+  addTemplate: templates => dispatch(addTemplate(templates))
+});
+
+const Text = ({ addText, addTemplate, history }) => {
+  const [letter, setLetter] = useState('');
 
   const handleChange = e => {
-    setText(e.target.value);
+    setLetter(e.target.value);
   };
 
   const handleSubmit = e => {
     e.preventDefault();
-    const array = searchAndSave(text);
-    console.log(array);
-    array.forEach(element => {
-      setText(replaceAll(text, element, 'Saheed'));
-    });
+    const templates = searchAndSave(letter);
+    addTemplate(templates);
+    addText(letter);
+    history.push('/edit');
+    // templates.forEach(element => {
+    //   addText(replaceAll(letter, element, 'Saheed'));
+    // });
   };
 
   return (
@@ -28,7 +38,7 @@ const Text = () => {
           autoFocus
           required
           name="text"
-          value={text}
+          value={letter}
         />
         <button type="submit">PROCESS COVER LETTER</button>
       </form>
@@ -36,4 +46,9 @@ const Text = () => {
   );
 };
 
-export default Text;
+Text.propTypes = {
+  addText: PropTypes.func.isRequired,
+  addTemplate: PropTypes.func.isRequired
+};
+
+export default connect(null, mapDispatchToProps)(withRouter(Text));

@@ -1,13 +1,17 @@
 import React from 'react';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import '../styles/css/App.css';
-import Text from './Text';
-import Layout from './Layout';
+import Home from './Home';
+import Edit from './Edit';
 
 function App() {
   return (
-    <Layout>
-      <Text />
-    </Layout>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/edit" exact component={Edit} />
+      </Switch>
+    </Router>
   );
 }
 

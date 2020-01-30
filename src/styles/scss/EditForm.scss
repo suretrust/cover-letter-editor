@@ -1,19 +1,24 @@
-.Text {
+.EditForm {
     padding: 0 2rem;
-    max-width: 900px;
+    max-width: 600px;
     margin: 2rem auto;
 
     form {
         margin-bottom: 4rem;
 
-        textarea {
-            background-color: rgb(230, 230, 230);
+        label,
+        input {
             width: 100%;
-            border: none;
             border-radius: .2rem;
             font-size: 1rem;
+        }
+
+        input {
             padding: .5rem;
-            min-height: 40vh;
+            border: none;
+            background-color: rgb(230, 230, 230);
+            margin-bottom: 1rem;
+            margin-top: .5rem;
         }
 
         button {
