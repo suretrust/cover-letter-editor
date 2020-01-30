@@ -6,9 +6,14 @@ nav {
         text-align: center;
         padding: 1rem;
 
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
     }
 
-    li {
-        list-style: none;
-    }
 }

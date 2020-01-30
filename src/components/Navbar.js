@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li>Cover Letter Template Editor</li>
+        <li>
+          <a href="/">Cover Letter Template Editor</a>
+        </li>
       </ul>
     </nav>
   );

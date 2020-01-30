@@ -13,7 +13,7 @@ const EditedText = ({ text }) => {
   return (
     <div className="Text">
       <form>
-        <TextareaAutosize name="text" value={text} disabled />
+        <TextareaAutosize name="text" value={text.trim()} disabled />
         <button type="button">COPY TO CLIPBOARD</button>
         <button type="button">EDIT</button>
       </form>

@@ -6,8 +6,12 @@ nav ul {
   text-align: center;
   padding: 1rem;
 }
-nav li {
+nav ul li {
   list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=Navbar.css.map */

@@ -7,7 +7,8 @@
   margin-bottom: 4rem;
 }
 .Text form textarea {
-  background-color: #e6e6e6;
+  background-color: #645757;
+  color: white;
   width: 100%;
   border: none;
   border-radius: 0.2rem;
