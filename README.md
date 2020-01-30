@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Welcome to Cover Letter Template Editor 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/suretrustng" target="_blank">
+    <img alt="Twitter: suretrustng" src="https://img.shields.io/twitter/follow/suretrustng.svg?style=social" />
+  </a>
+  <a href="https://twitter.com/shjang12" target="_blank">
+    <img alt="Twitter: shjang12" src="https://img.shields.io/twitter/follow/shjang12.svg?style=social" />
+  </a>
+</p>
 
-## Available Scripts
+Job searching is tough, we know that because we have been in your shoes. We know how stressful editing a cover letter template can be, especially when you have just 5 mins to apply. This project is a **Cover Letter Template Editor** app built to ease job searching by enabling candidates in writing custom cover letters for different companies or positions without going through the hassle of customizing it yourself. Ok, you will still customize yourself, we know, but this app eases the process. This ranges from editing the hiring manager's name, company name, to replacing the required skill set.
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- React 16.12
+- Redux 4.0.5
+- Jest 25.1.0
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## [Live](https://cover-letter.netlify.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting started
 
-### `yarn test`
+> Clone the repository to your local machine
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+$ git clone https://github.com/suretrust/cover-letter-editor.git
+```
 
-### `yarn build`
+> Change directory into the directory
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ cd cover-letter-editor
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+> Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ npm install
+```
 
-### `yarn eject`
+> Check code passes tests
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+$ npm test
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Open server with compiling
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+$ npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> Go to `http://localhost:3000` using your browser.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Saheed Oladele**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@suretrust](https://github.com/suretrust)
+- Linkedin: [@saheed-oladele](https://www.linkedin.com/in/saheed-oladele/)
+- Twitter: [@suretrustng](https://twitter.com/suretrustng)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+👤 **Suhyeon Jang**
 
-### Analyzing the Bundle Size
+- Github: [@shjang7](https://github.com/shjang7)
+- Linkedin: [@shjang](https://www.linkedin.com/in/shjang/)
+- Twitter: [@shjang12](https://twitter.com/shjang12)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/suretrust/cover-letter-editor/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1. Fork it (https://github.com/suretrust/cover-letter-editor/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[feature-name])
+5. Create a new Pull Request
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Give a ⭐️ if you like this project!
 
-### Deployment
+## 📝 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](https://github.com/suretrust/cover-letter-editor/blob/master/LICENSE) licensed.

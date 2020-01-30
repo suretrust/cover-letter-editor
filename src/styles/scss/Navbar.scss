@@ -1,0 +1,36 @@
+nav {
+    background-color: rgb(42, 42, 42);
+    position: sticky;
+
+    ul {
+        text-align: center;
+        padding: 1rem;
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        ul {
+            padding: .7rem;
+
+            li {
+                a {
+                    font-size: .8rem;
+                }
+            }
+        }
+
+    }
+}

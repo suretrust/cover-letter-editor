@@ -1,0 +1,32 @@
+footer {
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    p {
+        text-align: center;
+        bottom: 0;
+        padding: .5rem;
+        font-size: .7rem;
+
+        span {
+            color: red;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        p {
+            padding: .5rem;
+            font-size: .5rem;
+        }
+    }
+}

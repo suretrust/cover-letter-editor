@@ -1,0 +1,72 @@
+.Text {
+  padding: 0 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.Text .error {
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+}
+.Text form {
+  margin-bottom: 4rem;
+}
+.Text form .copy-success {
+  text-align: center;
+  padding: 0.3rem;
+}
+.Text form textarea {
+  background-color: #645757;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  min-height: 40vh;
+}
+.Text form textarea::placeholder {
+  font-size: 0.9rem;
+  color: seashell;
+}
+.Text form button {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: red;
+  color: white;
+}
+.Text form button:hover {
+  background-color: white;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .Text {
+    padding: 0 1rem;
+  }
+  .Text .error {
+    font-size: 0.6rem;
+  }
+  .Text form .copy-success {
+    font-size: 0.8rem;
+  }
+  .Text form textarea {
+    font-size: 0.85rem;
+  }
+  .Text form textarea::placeholder {
+    font-size: 0.7rem;
+    color: seashell;
+  }
+  .Text form button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=Text.css.map */

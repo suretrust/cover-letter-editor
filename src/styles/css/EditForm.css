@@ -1,0 +1,61 @@
+.EditForm {
+  padding: 0 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.EditForm form {
+  margin-bottom: 4rem;
+}
+.EditForm form label,
+.EditForm form input {
+  width: 100%;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+.EditForm form input {
+  padding: 0.5rem;
+  border: none;
+  background-color: #e6e6e6;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.EditForm form button {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: red;
+  color: white;
+}
+.EditForm form button:hover {
+  background-color: white;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .EditForm {
+    padding: 0 1rem;
+  }
+  .EditForm form {
+    margin-bottom: 4rem;
+  }
+  .EditForm form label,
+.EditForm form input {
+    font-size: 0.8rem;
+  }
+  .EditForm form input {
+    padding: 0.4rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.3rem;
+  }
+  .EditForm form button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=EditForm.css.map */
