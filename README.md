@@ -20,6 +20,8 @@ Job searching is tough, we know that because we have been in your shoes. We know
 - Redux 4.0.5
 - Jest 25.1.0
 
+## [Live](https://cover-letter.netlify.com/)
+
 ## Getting started
 
 > Clone the repository to your local machine
