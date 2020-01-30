@@ -18,7 +18,7 @@ Job searching is tough, we know that because we have been in your shoes. We know
 
 - React 16.12
 - Redux 4.0.5
-- Jest test
+- Jest 25.1.0
 
 ## Getting started
 
