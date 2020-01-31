@@ -18,10 +18,10 @@ nav ul li a {
 
 @media screen and (max-width: 600px) {
   nav ul {
-    padding: 0.7rem;
+    padding: 0.8rem;
   }
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
