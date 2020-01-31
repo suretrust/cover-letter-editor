@@ -33,7 +33,7 @@ Looking forward to hearing from you,
    
 Your name
 
-PASTE A SIMLAR TEMPLATE TO GET STARTED!`;
+PASTE A SIMILAR TEMPLATE TO GET STARTED!`;
 
   const handleChange = e => {
     setError('');
