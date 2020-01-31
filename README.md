@@ -14,6 +14,24 @@
 
 Job searching is tough, we know that because we have been in your shoes. We know how stressful editing a cover letter template can be, especially when you have just 5 mins to apply. This project is a **Cover Letter Template Editor** app built to ease job searching by enabling candidates in writing custom cover letters for different companies or positions without going through the hassle of customizing it yourself. Ok, you will still customize yourself, we know, but this app eases the process. This ranges from editing the hiring manager's name, company name, to replacing the required skill set.
 
+## Usage
+
+To use this platform, wrap any text you wish to replace in a [ ] as shown in the example below and paste in the text box. We'll do the rest. See the video below to see the full process.
+
+> Dear [hiring manager],
+>
+> I’m very excited to submit my application today for a position as a [job title] for [company name]! I used [company name] myself a few years ago when I first started out as a junior developer, and my mentor Alejandra Montez changed my life.
+>
+> I would be thrilled to use every one of my skills in the service of [company name].
+>
+> I’m extremely excited about the opportunity to become a part of [company name] and I hope you’ll be just as happy to have me. Thank you very much for your consideration!
+>
+> Looking forward to hearing from you,
+>
+> Your name
+
+![Usage](https://github.com/suretrust/cover-letter-editor/blob/feature/usage.gif?raw=true)
+
 ## Built With
 
 - React 16.12
@@ -63,7 +81,6 @@ $ npm start
 - Github: [@suretrust](https://github.com/suretrust)
 - Linkedin: [@saheed-oladele](https://www.linkedin.com/in/saheed-oladele/)
 - Twitter: [@suretrustng](https://twitter.com/suretrustng)
-
 
 👤 **Suhyeon Jang**
 
