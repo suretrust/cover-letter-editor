@@ -58,26 +58,26 @@
         padding: 0 1rem;
 
         .error {
-            font-size: .6rem;
+            font-size: 1rem;
         }
 
         form {
             .copy-success {
-                font-size: .8rem;
+                font-size: .9rem;
             }
 
             textarea {
-                font-size: .85rem;
+                font-size: 1rem;
 
                 &::placeholder {
-                    font-size: .7rem;
+                    font-size: .9rem;
                     color: seashell;
                 }
             }
 
             button {
-                padding: .5rem;
-                font-size: .8rem;
+                padding: .9rem;
+                font-size: 1rem;
             }
         }
     }
